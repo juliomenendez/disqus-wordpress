@@ -21,6 +21,8 @@ if (!defined('DISQUS_DEBUG')) {
 define('DISQUS_VERSION',            '2.85');
 define('DISQUS_SYNC_TIMEOUT',       30);
 
+global $dsq_api;
+
 /**
  * Returns an array of all option identifiers used by Disqus.
  * @return array[int]string
